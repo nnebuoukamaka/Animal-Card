@@ -1,0 +1,61 @@
+.main {
+    height: 100vh;
+    width: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 10px #888888;
+    border: 1px solid 
+
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .dog {
+    background-image: url(./german\ shepherd.jpg);
+    background-size: cover;
+    height: 40vh;
+  }
+  .german {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .dogtype {
+    display: flex;
+    /* flex-direction: row;
+    /* border-bottom: 1px solid; */
+  }
+  .dog1 {
+    /* border-right: solid 1px black; */
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .dog2 {
+    /* border-right: solid 1px black; */
+    border-left: solid 1px black;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .dog3 {
+    /* border-right: solid 1px black; */
+    border-left: solid 1px black;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: small;
+  }
+  
+  
